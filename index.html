@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaydeep Kar - Web Developer</title>
+  <style>
+     html {
+      scroll-behavior: smooth;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #0a192f;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #112240;
+    }
+    header h1 {
+      font-size: 24px;
+    }
+    nav a {
+  margin: 0 10px;
+  color: #64ffda;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: rgba(100, 255, 218, 0.1);
+  box-shadow: 0 0 10px rgba(100, 255, 218, 0.4);
+  transform: scale(1.6);
+}
+
+    .center-intro {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+    .center-intro img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #64ffda;
+      box-shadow: 0 0 20px rgba(100, 255, 218, 0.3);
+      margin-bottom: 20px;
+    }
+    .center-intro h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .center-intro p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #ccd6f6;
+    }
+    .section {
+      padding: 40px;
+    }
+    .section h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #64ffda;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 12px;
+      border: none;
+      border-radius: 4px;
+    }
+    form button {
+      background: #ff4b5c;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: not-allowed;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: #112240;
+      color: #8892b0;
+    }
+   a.social-icon img {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+a.social-icon:hover img {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(100, 255, 218, 0.6);
+}
+a.social-icon:active img {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #64ffda, 0 0 20px #64ffda;
+}
+    a.social-icon:active img {
+      transform: scale(1.2);
+      box-shadow: 0 0 10px #64ffda, 0 0 20px #64ffda;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jaydeep Kar</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="center-intro">
+    <img src="JAYDEEP KAR11111.jpg" alt="Jaydeep Kar">
+    <h2>Jaydeep Kar</h2>
+    <h3>Web Developer</h3>
+    <p id="about">I am a passionate learner, currently developing my skills in web development to build real-world projects and grow as a software developer.</p>
+  </section>
+
+  <section class="section" id="experience">
+    <h3>Experience</h3>
+    <p>Currently learning frontend technologies like HTML, CSS, and JavaScript, and exploring backend development using tools like MongoDB and FastAPI.</p>
+
+    <h4 style="color:#64ffda; margin-top: 30px;">Internships</h4>
+    <ul style="margin-left: 20px;">
+      <li><strong>Internship – PHP with MySQL (Euphoria GenX)</strong><br>Contributed to the Sundarban Project during a skill development internship. Duration: 22/07/2023 – 30/10/2023</li>
+      <li><strong>Internship – PHP & Laravel (Euphoria GenX)</strong><br>Worked on the ComfyNest project – an e-commerce platform for furniture. Duration: 18/01/2024 – 17/05/2024</li>
+    </ul>
+
+    <h4 style="color:#64ffda; margin-top: 30px;">Projects</h4>
+    <ul style="margin-left: 20px;">
+      <li><strong>ComfyNest Furniture Website</strong><br>This is a full-stack e-commerce project for furniture shopping built using PHP, MySQL, and Laravel. The goal was to create a platform for showcasing and selling furniture online.<br><em>In this project, I developed backend APIs, implemented the customer login and registration system, and created the admin dashboard to manage products and orders.</em></li>
+      <li><strong>Sundarban Product Marketplace</strong><br>This is an online platform for promoting and selling local handmade and authentic products from the Sundarbans region. Built using PHP and MySQL.<br><em>In this project, I created modules for product listing, category filters, user login, and secure payment flow integration. I also contributed to responsive UI and backend data handling.</em></li>
+    </ul>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Get in Touch</h3>
+    <p>You can type in the details here, but unfortunately this won't work.</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="text" placeholder="Subject">
+      <textarea rows="5" placeholder="Message"></textarea>
+      <button type="submit" disabled>Submit</button>
+    </form>
+  </section>
+
+  <div class="footer" style="display: flex; justify-content: space-between; align-items: center;">
+    <p>&copy; 2025 Jaydeep Kar. All rights reserved.</p>
+    <div style="margin-top: 10px;">
+    <a href="https://www.linkedin.com/in/jaydeep-kar-8045b525b/" target="_blank" class="social-icon" style="margin-right: 10px;">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
+    </a>
+    <a href="mailto:jaydeepkar2003@gmail.com" target="_blank" class="social-icon" style="margin-left: 10px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" style="width: 24px; height: 24px;">
+    </a>
+    <a href="https://www.facebook.com/jaydip.kar.54" target="_blank" class="social-icon" style="margin-left: 10px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="width: 24px; height: 24px;">
+    </a>
+  </div>
+  </div>
+</body>
+</html>
